@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context="br.com.douglaspac.qualcombustivel.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Álcool"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:orientation="horizontal">
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_etanol_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_formatter="%d,"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_etanol_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_etanol_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_etanol_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Gasolina"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView3"
+        android:orientation="horizontal">
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_gasolina_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:np_formatter="%d,"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_gasolina_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_gasolina_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/nmb_pick_gasolina_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:np_max="9"
+            app:np_min="0"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/primary_light"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="Calcular!"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</RelativeLayout>
