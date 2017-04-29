@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Which fuel?</string>
+    <string name="alcool">Ethanol</string>
+    <string name="calc">Calculate!</string>
+    <string name="gas">Gasoline</string>
+    <string name="go_alcool">Put Ethanol!!!!</string>
+    <string name="go_gas">Put Gasoline!!!!</string>
 </resources>

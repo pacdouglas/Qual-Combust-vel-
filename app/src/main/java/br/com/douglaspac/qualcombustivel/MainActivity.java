@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity
 
         Float gas = SaveSharedPreferences.getGas(this);
         Float etanol = SaveSharedPreferences.getEtanol(this);
-        String gasStr = String.format("%3f", gas);
+
+        String gasStr = String.format("%.3f", gas);
         String etanolStr = String.format("%.3f", etanol);
 
         mPickEtanol1 = (NumberPicker) findViewById(R.id.nmb_pick_etanol_1);
@@ -74,11 +75,11 @@ public class MainActivity extends AppCompatActivity
 
                 if(etanol / gas < 0.7)
                 {
-                    mBtnCalculate.setText("Bota Álcool!!!!");
+                    mBtnCalculate.setText(getString(R.string.go_alcool));
                 }
                 else
                 {
-                    mBtnCalculate.setText("Bota Gasolina!!!!");
+                    mBtnCalculate.setText(getString(R.string.go_gas));
                 }
             }
         });

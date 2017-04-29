@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Qual Combustivel?</string>
+    <string name="alcool">Álcool</string>
+    <string name="calc">Calcular!</string>
+    <string name="gas">Gasolina</string>
+    <string name="go_alcool">Bota Álcool!!!!</string>
+    <string name="go_gas">Bota Gasolina!!!!</string>
 </resources>

@@ -12,10 +12,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Álcool"
+        android:text="@string/alcool"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -68,10 +68,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:text="Gasolina"
+        android:text="@string/gas"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -96,7 +96,7 @@
             android:id="@+id/nmb_pick_gasolina_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             app:np_max="9"
             app:np_min="0"
             app:np_selectedTextColor="@color/colorPrimary"
@@ -131,7 +131,7 @@
         android:layout_centerHorizontal="true"
         android:paddingLeft="100dp"
         android:paddingRight="100dp"
-        android:text="Calcular!"
+        android:text="@string/calc"
         android:textColor="@color/colorPrimaryDark"/>
 
 </RelativeLayout>
