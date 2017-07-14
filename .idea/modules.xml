@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Qual-Combustivel.iml" filepath="$PROJECT_DIR$/Qual-Combustivel.iml" />
+      <module fileurl="file://C:\Workspace\_Estudos\Qual-Combustivel\Qual-Combustivel.iml" filepath="C:\Workspace\_Estudos\Qual-Combustivel\Qual-Combustivel.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Workspace\_Estudos\Qual-Combustivel\app\app.iml" filepath="C:\Workspace\_Estudos\Qual-Combustivel\app\app.iml" />
     </modules>
   </component>
 </project>
