@@ -1,4 +1,4 @@
-package br.com.douglaspac.qualcombustivel.kotlin
+package br.com.douglaspac.qualcombustivel
 
 import android.content.Context
 import android.content.SharedPreferences

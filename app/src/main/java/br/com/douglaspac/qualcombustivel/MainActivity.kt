@@ -1,11 +1,9 @@
-package br.com.douglaspac.qualcombustivel.kotlin
+package br.com.douglaspac.qualcombustivel
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
-import br.com.douglaspac.qualcombustivel.R
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
